@@ -1,5 +1,6 @@
 import { Tweet } from "./components/Tweet";
 import "./App.css";
+import { Timeline } from "./components/Timeline";
 
 function App() {
   return (
@@ -10,14 +11,14 @@ function App() {
       </Tweet>
       <Tweet username="LeoCode0" name="Leonardo Espinoza">
         <p>Hola Mundo</p>
-        <img src="https://picsum.photos/600" alt="Img" />
+        <img src="https://picsum.photos/400" alt="Img" />
       </Tweet>
       <Tweet username="CelisMX" name="ricardo celis">
         <p>Final tuit 👀</p>
         <img src="https://picsum.photos/920" alt="img" />
       </Tweet>
+
+      <Timeline />
     </div>
   );
 }
-
-export default App;
