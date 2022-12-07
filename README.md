@@ -6,7 +6,7 @@ This is my first portfolio with react.js
 
 - https://die-h-dev.vercel.app/twitter-home -->
 
-# Como crear una app en react:
+# How to inicialize a projecto with React:
 
 1. npm create vite
    - Project name
